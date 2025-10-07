@@ -19,28 +19,8 @@
 
 ## Библиотеки
 * Базовые библиотеки: Pandas, NumPy
-* Визуализация: Matplotlib, Seaborn, Plotly
+* Визуализация: Matplotlib, Seaborn
+* Библиотеки для машинного обучения: Scikit-learn (sklearn)
+* Стандартные библиотеки: os
 
 ### [Cсылка на Проект 3](https://github.com/Amina313/-3.-EDA/blob/main/project_3_eda.ipynb)
-
-
-
-import numpy as np 
-import pandas as pd 
-import category_encoders as ce
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn import preprocessing
-from sklearn.feature_selection import chi2
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
-import os
-import re
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from sklearn.feature_selection import chi2 # хи-квадрат
-from sklearn.preprocessing import MinMaxScaler
-# используем тест ANOVA для непрерывных признаков
-from sklearn.feature_selection import f_classif # anova
-# Импортируем необходимые библиотеки:
-from sklearn.ensemble import RandomForestRegressor # инструмент для создания и обучения модели
-from sklearn import metrics # инструменты для оценки точности модели
